@@ -1,0 +1,21 @@
+﻿<Window x:Class="Cuptor_microunde.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Cuptor_microunde"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="183*"/>
+            <ColumnDefinition Width="217*"/>
+        </Grid.ColumnDefinitions>
+        <Button Content="Deschide" HorizontalAlignment="Left" Margin="174,87,0,0" VerticalAlignment="Top" Height="52" Width="81"  Click="Click_deschide" />
+        <Button Content="Inchide" HorizontalAlignment="Left" Height="52" Margin="360,87,0,0" VerticalAlignment="Top" Width="80" Click="Click_inchide" Grid.ColumnSpan="2"/>
+        <Button Content="Start" HorizontalAlignment="Left" Height="52" Margin="196,87,0,0" VerticalAlignment="Top" Width="81"  Click="Click_start" Grid.Column="1" />
+        <TextBlock x:Name="Stare" HorizontalAlignment="Left" Margin="138,248,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="445" Grid.ColumnSpan="2" Height="136"/>
+        <TextBlock x:Name="Timer" HorizontalAlignment="Left" Margin="138,299,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="445" Grid.ColumnSpan="2" Height="34"/>
+
+    </Grid>
+</Window>
