@@ -64,27 +64,6 @@ namespace Cuptor_microunde
         //    tick_timer();
         //}
 
-        //private async void tick_timer()
-        //{
-        //    timer_on = true;
-        //    timer = timer_start;
-        //    for(int i = timer; i >= 0; i--)
-        //    {
-        //        if (i == 0) timer_over= true;
-        //        else
-        //        {
-        //            timer = i;
-        //            Timer.Text = timer.ToString();
-        //            Stare.Text = "TIMER MERGE HUAAA";
-        //            await (Task.Delay(1000));
-        //        }
-        //    }
-        //    if(timer_over == true)
-        //    {
-        //        timer = 0;
-        //        timer_over = false;
-        //    }
-        //}
         private void InchideUsa(object sender, RoutedEventArgs e)
         {
             microunde.InchideUsa();
@@ -134,5 +113,6 @@ namespace Cuptor_microunde
         {
             microunde.Ticks();
         }
+
     }
 }
